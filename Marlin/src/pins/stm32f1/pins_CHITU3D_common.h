@@ -66,17 +66,17 @@
 #define X_STEP_PIN                          PE5
 #define X_DIR_PIN                           PE6
 
-#define Y_ENABLE_PIN                      PB8 // PE4//
-#define Y_STEP_PIN                        PB4 // PE2//
-#define Y_DIR_PIN                         PB5// PE3//
+#define Y_ENABLE_PIN                       PE4//
+#define Y_STEP_PIN                         PE2//
+#define Y_DIR_PIN                          PE3//
 
 #define Z_ENABLE_PIN                        PE1
 #define Z_STEP_PIN                          PB9
 #define Z_DIR_PIN                           PE0
 
-#define E0_ENABLE_PIN                       PE4
-#define E0_STEP_PIN                         PE2
-#define E0_DIR_PIN                          PE3
+#define E0_ENABLE_PIN                       PB8
+#define E0_STEP_PIN                         PB4
+#define E0_DIR_PIN                          PB5
 
 #define E1_ENABLE_PIN                       PG8
 #define E1_STEP_PIN                         PC7
