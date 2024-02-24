@@ -56,7 +56,7 @@
 #define X_STOP_PIN                          PG10
 #define Y_STOP_PIN                          PA12
 #ifndef Z_STOP_PIN
-  #define Z_STOP_PIN                        PG9
+  #define Z_STOP_PIN                        PA15//PG9
 #endif
 
 //
@@ -110,7 +110,7 @@
 //#define POWER_LOSS_PIN                    PG2   // PG4 PW_DET
 
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN                    PA15  // MT_DET
+  #define FIL_RUNOUT_PIN                    PG9//PA15  // MT_DET
 #endif
 
 // SPI Flash
